@@ -1,7 +1,8 @@
 # network_pipe
 SOURCE: https://www.tecmint.com/create-network-bridge-in-rhel-centos-8/
-
- # To list the active network connections on the test system,
+# To create a bridge network in almalinux8.7
+ 
+ #To list the active network connections on the test system,
  $nmcli conn show --active
  
  #create a network bridge interface using the following nmcli command, where conn or con stands for connection,
