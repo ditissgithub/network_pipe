@@ -46,4 +46,4 @@ $chmod +x pipework
 
 #add extra network interface
 
-$./pipework.sh br0 <container id> 192.168.10.110/24
+$ ./pipework.sh br0 <container id> 192.168.10.110/24
